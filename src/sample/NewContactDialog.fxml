@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.NewContactDialogController"
+            >
+    <top>
+        <Label text="New Contact"/>
+    </top>
+    <center>
+        <VBox>
+            <Label text="First Name"/>
+            <TextField fx:id="firstNameField"/>
+            <Label text="Last Name"/>
+            <TextField fx:id="lastNameField"/>
+            <Label text="Phone Number"/>
+            <TextField fx:id="phoneNumberField"/>
+            <Label text="Notes"/>
+            <TextField fx:id="notesField"/>
+        </VBox>
+    </center>
+
+</BorderPane>
